@@ -1,6 +1,6 @@
 元素: $\alpha$ $\beta$ $x$ $y$
-向量: $\vec{x_i} = \left[ x_1^i, x_2^i \ldots x_3^i,x_m^i \right]$
-    $\vec{\beta} = \left[ \beta_0, \beta_1 \ldots \beta_2,\beta_m \right]$
+向量: $\vec{x_i} = \left[x_1^i, x_2^i \ldots x_3^i,x_m^i \right]$
+    $\vec{\beta} = \left[\beta_0, \beta_1 \ldots \beta_2,\beta_m \right]$
 
 $$y_i \approx \beta_0 + \sum_{j=1}^n  \beta_j \times x_j^j$$
 
@@ -19,7 +19,7 @@ $$L(D, \vec{\beta})
 分数: $\frac {X} {Y}$
 偏导 $\partial L $ $\partial \beta$ 
 
-$$\frac{\partial L(D,\vec\beta)} {\partial\vec\beta} = \frac{\partial L}{\partial \bm{\beta}} = - 2\mathbf{X}^\top\mathbf{Y}+2\mathbf{X}^\top\mathbf{X}\vec{\beta}$$
+$$\frac{\partial L(D,\vec\beta)} {\partial\vec\beta} = \frac{\partial L}{\partial \vec{\beta}} = - 2\mathbf{X}^\top\mathbf{Y}+2\mathbf{X}^\top\mathbf{X}\vec{\beta}$$
 
 梯度设置为0:
 $$-2\mathbf{X}^\top\mathbf{Y}+2\mathbf{X}^\top\mathbf{X}\vec{\beta} = 0\Rightarrow \mathbf{X}^\top\mathbf{X}\vec{\beta} = \mathbf{X}^\top\mathbf{Y}\Rightarrow \vec{\beta} = (\mathbf{X}^\top\mathbf{X})^{-1}\mathbf{X}^\top\mathbf{Y}$$
